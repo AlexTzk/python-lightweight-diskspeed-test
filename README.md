@@ -1,8 +1,9 @@
 # Lightweight python script that will test the HDD speed
 ## Features
-* standalone and disk_speed_flask are as basic as they can be
+* `standalone.py` and `disk_speed_flask.py` are as basic as they can be
 * docker image enables functionality through the WEBUI to test in a different path of the container; be aware that said path must be mounted
 i.e. 2 HDD/SSDs mounted to the container:
+
 host: `/mnt/ssd` mounted to `/ssd` correct path is: `/ssd` 
 host: `/mnt/hdd` mounted to `/hdd`correct path is: `/hdd`
 
